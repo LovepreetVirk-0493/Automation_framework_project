@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Report theme -->
+    <theme>standard</theme>
+
+    <!-- Report title -->
+    <reportName>Automation Test Report</reportName>
+
+    <!-- Document title -->
+    <documentTitle>Test Execution Report</documentTitle>
+
+    <!-- Encoding for the report -->
+    <encoding>utf-8</encoding>
+
+    <!-- Adding Time Stamp for the report -->
+    <timeStamp>true</timeStamp>
+
+    <!-- Custom CSS styling for the report -->
+    <styles>
+        .r-img { width: 300px; }
+    </styles>
+</configuration>

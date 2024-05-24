@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation_framework">
+    <listeners>
+        <listener class-name="com.rbcbanking.utilities.Reporting"></listener>
+    </listeners>
+    <parameter name="Browser" value="chrome" />
+
+    <test name="TestOnDifferentBrowsers">
+        <classes>
+            <class name="com.rbcbanking.testCases.Tc_LoginTest_001" />
+<!--            <class name="com.rbcbanking.testCases.TC_LoginDDT_002" />-->
+<!--            <class name="com.rbcbanking.testCases.TC_addCustomerTest_003" />-->
+
+        </classes>
+    </test>
+</suite>
